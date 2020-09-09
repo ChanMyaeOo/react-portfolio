@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name": "Chan Myae Oo",
+    "occupation": "Front End Web Developer & Instructor @ILoveProgramming",
+    "description": "I love to create websites and web applications",
+    "image": "profile.jpg",
+    "bio": "My name is Chan Myae Oo, I'm a front end web developer. Currently, I'm working as a freelance web developer and an instructor at I Love Programming.",
+    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "email": "chanmyaeoo1221gg@gmail.com",
+    "phone": "+95 9976742687",
+    "address": {
+      "street": "Mogok Township, Mandalay",
+      "city": "Myanmar",
+      "state": "",
+      "zip": "05091"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1zocT5RrB7mC2hfhcjUBVs2ig0AjE9lHZ/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/cmo.arrchit",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/chanmyaeoo",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/arr_chit/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/ChanMyaeOo",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Technological University (Sagaing)",
+        "degree": "Bachelor of Engineering",
+        "graduated": "January 2018",
+        "description": "Graduated with Electronics and Communications"
+      }
+    ],
+    "work": [
+      {
+        "company": "I Love Programming",
+        "title": "Team Member && Front End Web Developer",
+        "years": "April 2020 - Present",
+        "description": "Teaching HTML, CSS and JavaScript"
+      },
+      {
+        "company": "Acromex",
+        "title": "Front End Web Developer",
+        "years": "Nov 2019 - April 2020",
+        "description": "Building websites and web applications."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "75%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Responsive Design",
+        "level": "85%"
+      },
+      {
+        "name": "HTML5",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "React Shop",
+        "category": "React Shop built with ReactJS",
+        "image": "react-shop.png",
+        "url": "https://react-m-shop.herokuapp.com/"
+      },
+      {
+        "title": "Blogger Site",
+        "category": "Blogger Site built with HTML, CSS and JavaScript",
+        "image": "news-site.png",
+        "url": "https://blogger-site-p.netlify.app/"
+      },
+      {
+        "title": "Agency Website",
+        "category": "Agency website built with HTML, CSS and Javascript",
+        "image": "agency.png",
+        "url": "https://chanmyaeoo.github.io/digital-agency-website/"
+      },
+      {
+        "title": "Phono Site",
+        "category": "Phono site built with HTML, CSS and JQuery",
+        "image": "phono.png",
+        "url": "https://phono-p.netlify.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "This guy is amazing :) He is very hard working and he always focus 100% on his job.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Chan Myae Oo must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}

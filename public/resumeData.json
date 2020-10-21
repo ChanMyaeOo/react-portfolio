@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Chan Myae Oo",
-    "occupation": "Front End Web Developer & Instructor @ILoveProgramming",
+    "occupation": "Front End Web Developer",
     "description": "I love to create websites and web applications",
     "image": "profile.jpg",
     "bio": "My name is Chan Myae Oo, I'm a front end web developer. Currently, I'm working as a freelance web developer and an instructor at I Love Programming.",
@@ -111,6 +111,18 @@
         "category": "Phono site built with HTML, CSS and JQuery",
         "image": "phono.png",
         "url": "https://phono-p.netlify.app/"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone built with reactJS",
+        "image": "amazon-clone.png",
+        "url": "https://clone-2a6f2.web.app/"
+      },
+      {
+        "title": "Facebook Clone",
+        "category": "Facebook Clone built ReactJS",
+        "image": "fb-clone.png",
+        "url": "https://facebook-clone-d3008.web.app/"
       }
     ]
   },

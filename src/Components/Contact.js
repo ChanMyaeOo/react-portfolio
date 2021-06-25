@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+    // window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
   };
 
   return (
@@ -30,7 +30,7 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form id="contactForm" name="contactForm">
+          <form id="contactForm" name="contactForm" netlify>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -43,6 +43,7 @@ const Contact = ({ data }) => {
                   id="contactName"
                   name="contactName"
                   onChange={(e) => setName(e.target.value)}
+                  required
                 />
               </div>
 
@@ -57,24 +58,26 @@ const Contact = ({ data }) => {
                   id="contactEmail"
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
               </div>
 
               <div>
-                <label htmlFor="contactSubject">Subject</label>
+                <label htmlFor="contactSubject">Subject<span className="required">*</span></label>
                 <input
                   value={subject}
                   type="text"
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
+                  required
                   onChange={(e) => setSubject(e.target.value)}
                 />
               </div>
 
               <div>
                 <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
+                  Message 
                 </label>
                 <textarea
                   value={message}

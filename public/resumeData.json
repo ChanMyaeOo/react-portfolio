@@ -9,8 +9,8 @@
     "email": "chanmyaeoo1221gg@gmail.com",
     "phone": "+95 9976742687",
     "address": {
-      "street": "Number 27A, Tar Yar Aye Street 3, Mayangone Township,",
-      "city": "Yangon"
+      "street": "Number 27A, Tar Yar Aye Street 3, Mayangone Township, Yangon",
+      "city": "Myanmar"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "https://drive.google.com/file/d/1zocT5RrB7mC2hfhcjUBVs2ig0AjE9lHZ/view?usp=sharing",
@@ -69,7 +69,7 @@
       },
       {
         "name": "NodeJs",
-        "level": "60%"
+        "level": "50%"
       },
       {
         "name": "CSS",
@@ -97,6 +97,19 @@
         "image": "react-shop.png",
         "url": "https://react-m-shop.herokuapp.com/"
       },
+      {
+        "title": "JJ Accountancy",
+        "category": "Build with ReactJS",
+        "image": "accountancy.jpg",
+        "url": "http://jjukaccountancy.com/"
+      },
+       {
+        "title": "Translation Service",
+        "category": "Build with ReactJS",
+        "image": "translation.jpg",
+        "url": "http://jjglobaltranslation.com/"
+      },
+      
        {
         "title": "Smart Brain",
         "category": "Build with ReactJS & NodeJS",
@@ -116,12 +129,6 @@
         "url": "https://clone-2a6f2.web.app/"
       },
       {
-        "title": "Blogger Site",
-        "category": "Build with HTML, CSS and JavaScript",
-        "image": "news-site.png",
-        "url": "https://blogger-site-p.netlify.app/"
-      },
-      {
         "title": "Agency Website",
         "category": "Build with HTML, CSS and Javascript",
         "image": "agency.png",
@@ -132,6 +139,12 @@
         "category": "Build with HTML, CSS and JQuery",
         "image": "phono.png",
         "url": "https://phono-p.netlify.app/"
+      },
+      {
+        "title": "Blogger Site",
+        "category": "Build with HTML, CSS and JavaScript",
+        "image": "news-site.png",
+        "url": "https://blogger-site-p.netlify.app/"
       },
       {
         "title": "Facebook Clone",

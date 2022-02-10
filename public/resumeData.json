@@ -92,6 +92,24 @@
   "portfolio": {
     "projects": [
       {
+        "title": "WP Agency",
+        "category": "Build with ReactJS & Material UI",
+        "image": "wp-agency.jpg",
+        "url": "https://jjportfolio1111.netlify.app/"
+      },
+      {
+        "title": "Community Web App",
+        "category": "Build with MERN stack",
+        "image": "community.jpg",
+        "url": "https://jj-web-portal.netlify.app/"
+      },
+      {
+        "title": "Design Print",
+        "category": "Build with React & Redux",
+        "image": "print.jpg",
+        "url": "https://mbgprint.netlify.app/"
+      },
+      {
         "title": "React Shop",
         "category": "Build with ReactJS & Firebase",
         "image": "react-shop.png",
@@ -145,12 +163,6 @@
         "category": "Build with HTML, CSS and JavaScript",
         "image": "news-site.png",
         "url": "https://blogger-site-p.netlify.app/"
-      },
-      {
-        "title": "Facebook Clone",
-        "category": "Build with ReactJS & Firebase",
-        "image": "fb-clone.png",
-        "url": "https://facebook-clone-d3008.web.app/"
       }
       
     ]

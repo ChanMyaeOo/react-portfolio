@@ -1,182 +1,207 @@
 {
-  "main": {
-    "name": "Chan Myae Oo",
-    "occupation": "Web Developer",
-    "description": "I love to create websites and web applications",
-    "image": "profile.jpg",
-    "bio": "Self taught web developer. Currently, I'm working as a web developer and an instructor at ",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "chanmyaeoo1221gg@gmail.com",
-    "phone": "+95 9976742687",
-    "address": {
-      "street": "Number 27A, Tar Yar Aye Street 3, Mayangone Township, Yangon",
-      "city": "Myanmar"
+    "main": {
+        "name": "Chan Myae Oo",
+        "occupation": "Web Developer",
+        "description": "I love to create websites and web applications",
+        "image": "profile.jpg",
+        "bio": "Self taught web developer. Currently, I'm working as a freelance web developer.",
+        "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+        "email": "chanmyaeoo.dev9@gmail.com",
+        "phone": "+95 9976742687",
+        "address": {
+            "street": "Number 27A, Tar Yar Aye Street 3, Mayangone Township, Yangon",
+            "city": "Myanmar"
+        },
+        "website": "http://www.timbakerdev.com",
+        "resumedownload": "https://drive.google.com/file/d/1eDJfqJodONxRKo-itl4Qw4gY88av5Ez4/view?usp=sharing",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/chanmyaeoo",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/ChanMyaeOo",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/cmo.arrchit",
+                "className": "fa fa-facebook"
+            }
+        ]
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1zocT5RrB7mC2hfhcjUBVs2ig0AjE9lHZ/view?usp=sharing",
-    "social": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/chanmyaeoo",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/ChanMyaeOo",
-        "className": "fa fa-github"
-      },
-       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/cmo.arrchit",
-        "className": "fa fa-facebook"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "",
-    "education": [
-      {
-        "school": "Technological University (Sagaing)",
-        "degree": "Bachelor of Engineering",
-        "graduated": "January 2018",
-        "description": "Graduated with Electronics and Communications"
-      }
-    ],
-    "work": [
-      {
-        "company": "Future Makerspace (FMS)",
-        "title": "Programmer",
-        "years": "Jan 2019 - Aug 2019",
-        "description": "Building IOT services"
-      },
-      {
-        "company": "Acromex",
-        "title": "Web Developer",
-        "years": "Nov 2019 - Oct 2020",
-        "description": "Building websites and web applications."
-      },
-      {
-        "company": "I Love Programming",
-        "title": "Team Member && Web Developer",
-        "years": "Dec 2020 - Present",
-        "description": "Teaching web development"
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "80%"
-      },
-      {
-        "name": "NodeJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "75%"
-      },
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Responsive Design",
-        "level": "85%"
-      },
-      {
-        "name": "HTML5",
-        "level": "60%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "WP Agency",
-        "category": "Build with ReactJS & Material UI",
-        "image": "wp-agency.jpg",
-        "url": "https://jjportfolio1111.netlify.app/"
-      },
-      {
-        "title": "Community Web App",
-        "category": "Build with MERN stack",
-        "image": "community.jpg",
-        "url": "https://jj-web-portal.netlify.app/"
-      },
-      {
-        "title": "Design Print",
-        "category": "Build with React & Redux",
-        "image": "print.jpg",
-        "url": "https://mbgprint.netlify.app/"
-      },
-      {
-        "title": "React Shop",
-        "category": "Build with ReactJS & Firebase",
-        "image": "react-shop.png",
-        "url": "https://react-m-shop.herokuapp.com/"
-      },
-      {
-        "title": "JJ Accountancy",
-        "category": "Build with ReactJS",
-        "image": "accountancy.jpg",
-        "url": "http://jjukaccountancy.com/"
-      },
-       {
-        "title": "Translation Service",
-        "category": "Build with ReactJS",
-        "image": "translation.jpg",
-        "url": "http://jjglobaltranslation.com/"
-      },
-      
-       {
-        "title": "Smart Brain",
-        "category": "Build with ReactJS & NodeJS",
-        "image": "smart-brain.jpg",
-        "url": "https://face-recog-brain.netlify.app/"
-      },
-       {
-        "title": "Memories App",
-        "category": "Build with MERN stack",
-        "image": "memories.jpg",
-        "url": "https://mernstackmm.netlify.app/posts"
-      },
-      {
-        "title": "Amazon Clone",
-        "category": "Build with ReactJS & Firebase",
-        "image": "amazon-clone.png",
-        "url": "https://clone-2a6f2.web.app/"
-      },
-      {
-        "title": "Agency Website",
-        "category": "Build with HTML, CSS and Javascript",
-        "image": "agency.png",
-        "url": "https://chanmyaeoo.github.io/digital-agency-website/"
-      },
-      {
-        "title": "Phono Site",
-        "category": "Build with HTML, CSS and JQuery",
-        "image": "phono.png",
-        "url": "https://phono-p.netlify.app/"
-      },
-      {
-        "title": "Blogger Site",
-        "category": "Build with HTML, CSS and JavaScript",
-        "image": "news-site.png",
-        "url": "https://blogger-site-p.netlify.app/"
-      }
-      
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "This guy is amazing :) He is very hard working and he always focus 100% on his job.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Chan Myae Oo must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "skillmessage": "",
+        "education": [
+            {
+                "school": "Technological University (Sagaing)",
+                "degree": "Bachelor of Engineering",
+                "graduated": "January 2018",
+                "description": "Graduated with Electronics and Communications"
+            }
+        ],
+        "work": [
+            {
+                "company": "Future Makerspace (FMS)",
+                "title": "Programmer",
+                "years": "Jan 2019 - Aug 2019",
+                "description": "Building IOT services"
+            },
+            {
+                "company": "Acromex",
+                "title": "Web Developer",
+                "years": "Mar 2020 - Oct 2020",
+                "description": "Building websites and web applications."
+            },
+            {
+                "company": "I Love Programming",
+                "title": "Team Member && Web Developer",
+                "years": "Dec 2020 - Present",
+                "description": "Teaching web development"
+            }
+        ],
+        "skills": [
+            {
+                "name": "ReactJs",
+                "level": "80%"
+            },
+            {
+                "name": "NodeJs",
+                "level": "35%"
+            },
+            {
+                "name": "CSS",
+                "level": "75%"
+            },
+            {
+                "name": "Git",
+                "level": "60%"
+            },
+            {
+                "name": "Responsive Design",
+                "level": "85%"
+            },
+            {
+                "name": "HTML5",
+                "level": "60%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "WP Agency",
+                "category": "Build with ReactJS & Material UI",
+                "image": "wp-agency.jpg",
+                "url": "https://jjportfolio1111.netlify.app/"
+            },
+            {
+                "title": "Community Web App",
+                "category": "Build with MERN stack",
+                "image": "community.jpg",
+                "url": "https://jj-web-portal.netlify.app/"
+            },
+            {
+                "title": "Design Print",
+                "category": "Build with React & Redux",
+                "image": "print.jpg",
+                "url": "https://mbgprint.netlify.app/"
+            },
+            {
+                "title": "React Shop",
+                "category": "Build with ReactJS & Firebase",
+                "image": "react-shop.png",
+                "url": "https://react-m-shop.herokuapp.com/"
+            },
+            {
+                "title": "JJ Accountancy",
+                "category": "Build with ReactJS",
+                "image": "accountancy.jpg",
+                "url": "http://jjukaccountancy.com/"
+            },
+            {
+                "title": "Translation Service",
+                "category": "Build with ReactJS",
+                "image": "translation.jpg",
+                "url": "http://jjglobaltranslation.com/"
+            },
+
+            {
+                "title": "Amazon Clone",
+                "category": "Build with ReactJS & Firebase",
+                "image": "amazon-clone.png",
+                "url": "https://clone-2a6f2.web.app/"
+            },
+            {
+                "title": "Medium Clone",
+                "category": "Build with NextJS and Sanity CMS",
+                "image": "medium-clone.png",
+                "url": "https://next-medium-kvwi.vercel.app/"
+            },
+            {
+                "title": "Gmail Clone",
+                "category": "Build with ReactJS & Firebase",
+                "image": "gmail-clone.png",
+                "url": "https://clone-ec1b0.web.app/"
+            },
+            {
+                "title": "Linkedin Clone",
+                "category": "Build with ReactJS & Firebase",
+                "image": "linkedin-clone.png",
+                "url": "https://linkedin-clone-396a2.web.app/"
+            },
+            {
+                "title": "Slack Clone",
+                "category": "Build with ReactJS & Firebase",
+                "image": "slack-clone.png",
+                "url": "https://slack-clone-cef60.web.app/"
+            },
+
+            {
+                "title": "Smart Brain",
+                "category": "Build with ReactJS & NodeJS",
+                "image": "smart-brain.jpg",
+                "url": "https://face-recog-brain.netlify.app/"
+            },
+            {
+                "title": "Memories App",
+                "category": "Build with MERN stack",
+                "image": "memories.jpg",
+                "url": "https://mernstackmm.netlify.app/posts"
+            },
+
+            {
+                "title": "Agency Website",
+                "category": "Build with HTML, CSS and Javascript",
+                "image": "agency.png",
+                "url": "https://chanmyaeoo.github.io/digital-agency-website/"
+            },
+            {
+                "title": "Phono Site",
+                "category": "Build with HTML, CSS and JQuery",
+                "image": "phono.png",
+                "url": "https://phono-p.netlify.app/"
+            },
+            {
+                "title": "Blogger Site",
+                "category": "Build with HTML, CSS and JavaScript",
+                "image": "news-site.png",
+                "url": "https://blogger-site-p.netlify.app/"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "This guy is amazing :) He is very hard working and he always focus 100% on his job.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Chan Myae Oo must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
 }

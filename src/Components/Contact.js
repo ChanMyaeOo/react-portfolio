@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 
 const Contact = ({ data }) => {
     const [url, setUrl] = useState(
         "mailto:chanmyaeoo1221gg@gmail.com?subject=subject&body=body"
     );
 
-    const YOUR_SERVICE_ID = "contact_service";
-    const YOUR_TEMPLATE_ID = "contact_form";
-    const YOUR_USER_ID = "user_fRynzT7aKvdcAblgHKyQI";
+    const YOUR_SERVICE_ID = "service_u24csot";
+    const YOUR_TEMPLATE_ID = "template_9qhsxfq";
+    const YOUR_PUBLIC_KEY = "RvFwVGwPeXD7TrFLW";
 
     const [formData, setFormData] = useState({
         user_name: "",
@@ -25,7 +25,12 @@ const Contact = ({ data }) => {
         e.preventDefault();
 
         emailjs
-            .sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, e.target, YOUR_USER_ID)
+            .sendForm(
+                YOUR_SERVICE_ID,
+                YOUR_TEMPLATE_ID,
+                e.target,
+                YOUR_PUBLIC_KEY
+            )
             .then(
                 (result) => {
                     setFormData({
@@ -83,7 +88,11 @@ const Contact = ({ data }) => {
 
             <div className="row">
                 <div className="eight columns">
-                    <form id="contactForm" name="contactForm" onSubmit={sendMail}>
+                    <form
+                        id="contactForm"
+                        name="contactForm"
+                        onSubmit={sendMail}
+                    >
                         <fieldset>
                             <div>
                                 <label htmlFor="contactName">
@@ -106,7 +115,7 @@ const Contact = ({ data }) => {
                                 </label>
                                 <input
                                     value={formData.user_email}
-                                    type="text"
+                                    type="email"
                                     size="35"
                                     id="contactEmail"
                                     name="user_email"
@@ -143,10 +152,7 @@ const Contact = ({ data }) => {
                             </div>
 
                             <div>
-                                <button
-                                    type="submit"
-                                    className="submit"
-                                >
+                                <button type="submit" className="submit">
                                     Submit
                                 </button>
                                 <span id="image-loader">
